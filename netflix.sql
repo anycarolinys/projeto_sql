@@ -44,7 +44,7 @@ SET quotes = (
 );
 
 
-/* 3. Normalize a coluna listed_in criando uma nova tabela 'genre_table' de modo que tenhamos separadamente os gêneros
+3. Normalize a coluna listed_in criando uma nova tabela 'genre_table' de modo que tenhamos separadamente os gêneros
 de cada programação. Exemplo:
 
 Linha: n1 Ação, Aventura, Comédia
@@ -53,11 +53,11 @@ coluna:
 
 n1 Ação
 n1 Comédia
-n1 Aventura */
+n1 Aventura
 
 
-/* 4. Normalize a coluna date_added em uma nova base 'date_table' e 
-construa as seguintes colunas: */
+4. Normalize a coluna date_added em uma nova base 'date_table' e 
+construa as seguintes colunas:
 
 -- coluna day: DD
 ALTER TABLE netflix
