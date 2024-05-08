@@ -7,7 +7,7 @@ Fonte: Caviar Criativo (2024)
 
 Para realizar as consultas foi necessário preparar o ambiente com um banco de dados local para o MySQL 8.4.0.
 
-**No arquivo *mysql_etl.ipynb*:**
+**No arquivo *mysql_etl.ipynb*:**:
 - Importar a base de dados de filmes e séries da Netflix do Kaggle (https://www.kaggle.com/datasets/shivamb/netflix-shows)
 - Exportar os dados para o banco de dados local utilizando Python  
 
